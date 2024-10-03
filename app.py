@@ -93,3 +93,6 @@ def extract_data():
     # Return the extracted data as JSON
     return jsonify(output_data) 
 
+# Run the app
+if __name__ == '__main__':
+    app.run(debug=True) 
